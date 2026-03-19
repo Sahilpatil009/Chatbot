@@ -4,7 +4,7 @@ import pyperclip
 from openai import OpenAI
 
 client = OpenAI(
-  api_key="sk-proj--Wx17ehGk2PnwmzCHcDwT3BlbkFJMj6bYTk9jG1bqZaFTcj", # Enter Api key please
+  api_key="", # Enter Api key please
 
 )
 def is_last_message_from_sender(chat_log, sender_name="Sis"):
